@@ -17,5 +17,5 @@ jobs:
           port: 22
           script:
             cd /www/wwwroot/CICDTest/
-            git pull origin master
+            git pull origin
             git status
