@@ -15,7 +15,7 @@ jobs:
           username: ${{ secrets.USERNAME_VPSIR }}
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
-          script:
+          script: |
             ls al
             cd /www/wwwroot/CICDTest/
             git pull origin
